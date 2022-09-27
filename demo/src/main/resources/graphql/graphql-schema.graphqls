@@ -1,0 +1,11 @@
+# クエリ定義
+type Query {
+    syainById(syainId: ID): Syain
+}
+# タイプ定義
+type Syain {
+    SyainId: ID!
+    name: String
+    romaji: String
+}
+
